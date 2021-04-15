@@ -8,7 +8,7 @@ namespace Allergies.Models
     public int Score { get; private set; }
 
     private List<int> allergenScores = new List<int> { 1, 2, 4, 8, 16, 32, 64, 128 };
-    private List<string> allergens = new List<string> { "eggs", "peanuts", "shellsfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats" };
+    private List<string> allergens = new List<string> { "eggs", "peanuts", "shellfish", "strawberries", "tomatoes", "chocolate", "pollen", "cats" };
    
     private Dictionary<int, string> allergenDict = new Dictionary<int, string>();
 
