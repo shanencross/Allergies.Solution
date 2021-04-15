@@ -31,7 +31,7 @@ In fact, these allergen scores are powers of two, so this is a hidden way of pra
 To install locally:
 * Install git
 * Install the [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
-* Use _git clone_ this repository to a local directory
+* Use _git clone_ to download this repository to a local directory
 * Navigate to this local directory in your terminal
 * Navigate to the _/Allergies.Test_ folder in your terminal
 * Enter _dotnet restore_ to install testing packages
